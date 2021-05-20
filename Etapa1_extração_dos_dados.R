@@ -1,15 +1,15 @@
-# nessa primeira etapa vamos extrair os dados do censo 2010 para o estado de minas gerais
+# nessa primeira etapa vamos extrair os dados do censo 2010 para o estado do amapá
 # para tanto, vamos utilizar o software R, extraindo dados do formato .txt para .csv
 # o script de importação de dados é facilmente reproduzível para o software R, explicando sua
 # escolha em detrimento do python
 
 # vamos colocar nosso diretório na pasta em que estão os dados
 
-setwd('C:/Users/Cássio/Desktop/MG/MG')
+setwd('C:/Users/Cássio/Desktop/AP/AP')
 
 # a próxima linha já permite importar os dados estabelecendo os nomes para cada uma das variáveis
 
-censo2010<-read.fwf(file='Amostra_Pessoas_31.txt',widths=c(2,5,13,8,3,1,2,3,2,1,2,2,1,6,4,1,2,2,2,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,7,5,6,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1))
+censo2010<-read.fwf(file='Amostra_Pessoas_16.txt',widths=c(2,5,13,8,3,1,2,3,2,1,2,2,1,6,4,1,2,2,2,2,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,7,5,6,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1))
 
 # agora vamos colocar nomes nas variáveis
 
