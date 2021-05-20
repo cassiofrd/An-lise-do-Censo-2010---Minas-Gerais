@@ -21,6 +21,6 @@ View(censo2010)
 
 # por fim, agora vamos exportar esta base de dados em formato .csv
 
-write.csv(censo2010,"censo2010.xlsx")
+write.csv(censo2010,"censo2010.csv")
 
 # agora que salvamos os dados em formato .csv, vamos utilizar o python para as próximas etapas
